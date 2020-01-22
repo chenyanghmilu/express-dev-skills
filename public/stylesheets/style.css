@@ -1,53 +1,57 @@
 body {
-  padding: 50px;
-  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  background-color: seashell
+    padding: 50px;
+    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: seashell
 }
+
 .delete-form {
-  display: inline-block;
-  margin-left: 10px;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .delete-form button {
-  display: table-row;
-  background-color: rgb(210,110,106);
-  color: white;
-  position: relative;
-  font-size: 0.9em;
-  padding: 3px 6px;
-  margin: 10px auto;
+    display: table-row;
+    background-color: rgb(210, 110, 106);
+    color: white;
+    position: relative;
+    font-size: 0.9em;
+    padding: 3px 6px;
+    margin: 10px auto;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
-li {
-  list-style: none;
-  text-align: end;
-  display: block;
-  padding: 5px;
 
+li {
+    list-style: none;
+    text-align: end;
+    display: block;
+    padding: 5px;
 }
+
 ul {
-  padding: 0px;
+    padding: 0px;
 }
+
 hr {
-  width: 60vw;
+    width: 60vw;
 }
 
 .form-container {
-  display: flex;
-  flex-direction: column;
-  width: 60vw;
-  min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    min-width: 400px;
 }
+
 .input-form {
-  margin: 5px;
-  padding: 4px;
-  text-align: center;
+    margin: 5px;
+    padding: 4px;
+    text-align: center;
 }
